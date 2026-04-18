@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Under Maintenance | Naivedh Patel</title>
+    <meta name="description" content="Naivedh Patel's portfolio is currently under maintenance. We'll be back soon with a fresh look!">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="background-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="glass-card" id="main-card">
+            <header class="header animate-reveal">
+                <h1 class="name">NAIVEDH PATEL</h1>
+                <p class="subtitle">Creative Developer & Architect</p>
+            </header>
+
+            <section class="status-section animate-reveal" style="animation-delay: 0.1s;">
+                <div class="maintenance-icon">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="premium-barrier">
+                        <!-- Horizontal Planks -->
+                        <rect x="2" y="6" width="20" height="4" rx="1" fill="rgba(79, 70, 229, 0.05)"/>
+                        <rect x="2" y="12" width="20" height="4" rx="1" fill="rgba(79, 70, 229, 0.05)"/>
+                        
+                        <!-- Barrier Legs -->
+                        <path d="M5 16v4m0 0l-1 2m1-2l1 2" stroke-width="1.5"/>
+                        <path d="M19 16v4m0 0l-1 2m1-2l1 2" stroke-width="1.5"/>
+                        <path d="M5 10v2m14-2v2"/>
+                        
+                        <!-- Diagonal Hazard Stripes -->
+                        <path d="M7 6l3 4m4-4l3 4M7 12l3 4m4-4l3 4" opacity="0.6"/>
+                        
+                        <!-- Connecting Bolts -->
+                        <circle cx="5" cy="8" r="0.5" fill="currentColor"/>
+                        <circle cx="19" cy="8" r="0.5" fill="currentColor"/>
+                        <circle cx="5" cy="14" r="0.5" fill="currentColor"/>
+                        <circle cx="19" cy="14" r="0.5" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h2 class="status-title">Under Construction</h2>
+                <p class="status-desc">I'm currently building something amazing for you. The portfolio is going through a major visual and functional overhaul.</p>
+                
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-labels">
+                        <span>Rebranding</span>
+                        <span id="progress-text">85%</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="notify-section animate-reveal" style="animation-delay: 0.2s;">
+                <form id="notify-form" class="notify-form">
+                    <input type="email" placeholder="Enter your email" required class="notify-input" id="email-input">
+                    <button type="submit" class="notify-btn">
+                        <span>Notify Me</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                            <path d="M5 12h14m-7-7 7 7-7 7"/>
+                        </svg>
+                    </button>
+                </form>
+                <div id="form-message" class="form-message"></div>
+            </section>
+
+            <footer class="footer animate-reveal" style="animation-delay: 0.3s;">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/naivedh2518/" class="social-link" title="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                    </a>
+                    <a href="https://github.com/naivedhP2518" class="social-link" title="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
